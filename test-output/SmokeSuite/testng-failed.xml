@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeSuite]">
+  <test name="SmokeScenario(failed)">
+    <classes>
+      <class name="FailedTestCases.Testcase3">
+        <methods>
+          <include name="gmail"/>
+        </methods>
+      </class> <!-- FailedTestCases.Testcase3 -->
+      <class name="FailedTestCases.Testcase2">
+        <methods>
+          <include name="twitter"/>
+        </methods>
+      </class> <!-- FailedTestCases.Testcase2 -->
+    </classes>
+  </test> <!-- SmokeScenario(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
